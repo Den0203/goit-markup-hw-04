@@ -241,16 +241,22 @@ img {
   gap: 24px;
 }
 .squad-list-item {
+  gap: 24px;
+}
+.squad-link:hover {
+  background-color: #404bbf;
+}
+.squad-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .squad-wraper {
   display: block;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .squad-list-name {
   font-weight: 500;
@@ -271,6 +277,7 @@ img {
   gap: 24px;
   margin-top: 8px;
 }
+
 .squad-link {
   display: flex;
   align-items: center;
@@ -373,7 +380,6 @@ img {
 .foter-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-logo {
   font-weight: 700;
@@ -412,19 +418,20 @@ img {
   justify-content: center;
 }
 .social {
-  margin-left: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 120px;
 }
 .squad-list-social {
   gap: 16px;
 }
 .footer-link {
-  border-radius: 50px;
+  border-radius: 50%;
 }
-.squad-link:hover {
+.squad-link:hover,
+.squad-link:focus {
   background-color: #31d0aa;
 }
