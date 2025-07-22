@@ -240,6 +240,12 @@ img {
   align-items: center;
   gap: 24px;
 }
+.squad-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 .squad-list-social {
   display: flex;
   justify-content: center;
@@ -250,10 +256,6 @@ img {
   background-color: #404bbf;
 }
 .squad-item {
-  background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .squad-wraper {
   display: block;
@@ -292,10 +294,6 @@ img {
 }
 .squad-icon {
   fill: #f4f4fd;
-}
-.squad-link:hover,
-.squad-link:focus {
-  background-color: #404bbf;
 }
 
 /* Portfolik:hoveo Section */
@@ -383,6 +381,10 @@ img {
   display: flex;
   align-items: baseline;
 }
+.footer-link {
+  border-radius: 50%;
+  margin-right: 120px;
+}
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
@@ -394,12 +396,6 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer-text {
-  max-width: 264px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
 .footer-logo-accent {
   font-weight: 700;
   font-size: 18px;
@@ -408,6 +404,19 @@ img {
   text-transform: uppercase;
   color: #f4f4fd;
   font-style: normal;
+}
+.footer-text {
+  max-width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-title {
   font-weight: 500;
@@ -419,23 +428,14 @@ img {
   flex-direction: column;
   justify-content: center;
 }
-.social {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .footer-list-social {
   display: flex;
   gap: 16px;
   justify-content: center;
 }
-.footer-link {
-  border-radius: 50%;
-  margin-right: 120px;
-}
-.squad-link:hover,
-.squad-link:focus {
+
+.footer-icon:hover,
+.footer-icon:focus {
   background-color: #31d0aa;
 }
